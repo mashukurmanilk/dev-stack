@@ -3,13 +3,16 @@ import { VscClose } from "react-icons/vsc";
 interface SelectedProductsProps {
     stack: CardType[];
     onRemove: (product: CardType) => void;
+    onReset: () => void;
 }
 
-export default function SelectedProducts({ stack, onRemove }: SelectedProductsProps) {
+export default function SelectedProducts({ stack, onRemove, onReset }: SelectedProductsProps) {
 
 return (
   <div className="lg:w-1/4 w-full max-h-full border border-gray-100 rounded-3xl p-6 shadow-sm bg-white sticky top-35">
-    <h2 className="text-[20px] font-bold mb-1">Your Stack</h2>
+    <div className="flex justify-between items-center mb-1">
+      <h2 className="text-[20px] font-bold">Your Stack</h2>
+    </div>
     <p className="text-gray-400 text-[14px] mb-6">
       {stack.length === 0
         ? "No technologies selected yet."
@@ -38,11 +41,13 @@ return (
               {item.Name}
             </span>
             <span className="ml-auto mr-4 cursor-pointer text-gray-400 hover:text-red-500">
-                    <VscClose
-                        onClick={() => onRemove(item)} />
+              <VscClose onClick={() => onRemove(item)} />
             </span>
           </div>
         ))}
+        {stack.length > 0 && (
+         <button onClick={onReset} className="btn btn-wide rounded-xl bg-white border border-pink-600 text-pink-600">Remove All</button>
+        )}
       </div>
     )}
   </div>

@@ -19,6 +19,10 @@ const AvailableProducts = () => {
         setStack(stack.filter((p) => p.Name !== product.Name));
     };
 
+    const handleReset = () => {
+        setStack([]);
+    };
+
     return(
         <div className="max-w-7xl mx-auto px-4 md:px-8 sm:px-12 py-10">
             <div className="flex flex-col justify-center items-center md:items-start px-2 mb-8">
@@ -33,7 +37,7 @@ const AvailableProducts = () => {
                         <ProductCard key={idx} product={product} onAdd={handleAdd} />
                     ))}
                 </div>
-                <SelectedProducts stack={stack} onRemove={handleRemove} />
+                <SelectedProducts stack={stack} onRemove={handleRemove} onReset={handleReset} />
             </div>
         </div>
     )

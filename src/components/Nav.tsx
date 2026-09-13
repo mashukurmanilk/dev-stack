@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Nav() {
   return (
-    <div className="w-full border-b border-gray-200 px-6 sm:px-12 py-3">
+    <div className="w-full h-20 border-b border-gray-200 px-4 md:px-8 sm:px-12 py-5">
         <nav className="max-w-7xl mx-auto flex items-center justify-between relative">
             
             {/*Hamburger menu (mobile) or Logo (desktop) */}
@@ -13,7 +13,7 @@ export default function Nav() {
                         size="1.75rem"
                     />
                 </button>
-                <img className="hidden md:block w-[98.4px] h-7 zoom-120" src={Logo} alt="logo"/>
+                <img className="hidden md:block mx-10 w-[98.4px] h-7 zoom-120" src={Logo} alt="logo"/>
             </div>
 
             {/*Logo (mobile) or Links (desktop) */}
@@ -30,8 +30,8 @@ export default function Nav() {
 
             {/*Buttons */}
             <div className="flex items-center gap-1 sm:gap-3">
-                <button className="btn btn-ghost btn-sm md:btn-md rounded-full text-xs sm:text-sm">Sign In</button>
-                <button className="btn btn-secondary btn-sm md:btn-md rounded-full text-xs sm:text-sm">Sign Up</button>
+                <button className="btn btn-ghost btn-sm px-5 md:btn-md rounded-full text-xs sm:text-sm">Sign In</button>
+                <button className="btn btn-secondary btn-sm px-5 md:btn-md rounded-full text-xs sm:text-sm">Sign Up</button>
             </div>
         </nav>
     </div>

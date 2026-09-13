@@ -1,10 +1,11 @@
 export interface CardType{
-    image: string,
-    title: string,
-    field?: string,
-    description: string,
-    sector: string,
-    note: string,
-    rating: number
+    Icon: string,
+    Name: string,
+    Badge?: string,
+    Description: string,
+    Category: string,
+    Difficulty: string,
+    Rating: number
 }
+
 

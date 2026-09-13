@@ -13,7 +13,7 @@ export default function Nav() {
                         size="1.75rem"
                     />
                 </button>
-                <img className="hidden md:block mx-10 w-[98.4px] h-7 zoom-120" src={Logo} alt="logo"/>
+                <img className="hidden md:block md:translate-x-6 w-[98.4px] h-7 zoom-120" src={Logo} alt="logo"/>
             </div>
 
             {/*Logo (mobile) or Links (desktop) */}

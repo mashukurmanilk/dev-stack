@@ -3,7 +3,7 @@ import banner from '../assets/banner-stack.png';
 
 export default function Banner() {
   return (
-    <div className='flex flex-col md:flex-row items-center justify-between gap-8 p-4 sm:p-4 md:px-8 md:ml-35 md:py-14 max-w-7xl my-0 mx-auto'>
+    <div className='flex flex-col md:flex-row items-center justify-between gap-8 p-4 sm:p-4 md:px-8 md:py-14 max-w-7xl mx-auto'>
         {/* Text-container */}
         <div className='flex-1 flex flex-col text-center md:text-left md:space-y-3'>
             <h1 className='text-5xl md:text-6xl font-bold'>Build Your Ideal <div className='text-5xl md:text-6xl font-bold bg-linear-to-r from-[#FD5425] via-[#DA1E77] to-[#AB2AB4] bg-clip-text text-transparent'>Development Stack</div></h1>
@@ -16,7 +16,7 @@ export default function Banner() {
             </div>
         </div>
         {/* image-container */}
-        <div className="flex-1 flex justify-center md:justify-end md: -translate-y-3">
+        <div className="flex-1 flex justify-center md:justify-end md:-translate-y-3 md:translate-x-8">
             <img src={banner} alt="banner" className="w-full max-w-lg object-contain" />
         </div>
     </div>

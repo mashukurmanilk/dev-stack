@@ -4,111 +4,111 @@ import ProductCard from "./ProductCard";
 
 const mockProducts: CardType[] = [
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-        title: "React",
-        field: "Popular",
-        description: "A declarative, component-based JavaScript library for building modern user interfaces.",
-        sector: "Frontend",
-        note: "Beginner-Friendly",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        Name: "React",
+        Badge: "Popular",
+        Description: "A declarative, component-based JavaScript library for building modern user interfaces.",
+        Category: "Frontend",
+        Difficulty: "Beginner-Friendly",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
-        title: "Vue.js",
-        field: "Versatile",
-        description: "An approachable, performant, and versatile framework for building web user interfaces.",
-        sector: "Frontend",
-        note: "Beginner-Friendly",
-        rating: 4.8
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+        Name: "Vue.js",
+        Badge: "Versatile",
+        Description: "An approachable, performant, and versatile framework for building web user interfaces.",
+        Category: "Frontend",
+        Difficulty: "Beginner-Friendly",
+        Rating: 4.8
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
-        title: "Svelte",
-        field: "Fast",
-        description: "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
-        sector: "Frontend",
-        note: "Intermediate",
-        rating: 4.8
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+        Name: "Svelte",
+        Badge: "Fast",
+        Description: "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+        Category: "Frontend",
+        Difficulty: "Intermediate",
+        Rating: 4.8
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-        title: "Next.js",
-        description: "The React framework for full-stack web applications with hybrid static & server rendering.",
-        sector: "Frontend",
-        note: "Intermediate",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        Name: "Next.js",
+        Description: "The React framework for full-stack web applications with hybrid static & server rendering.",
+        Category: "Frontend",
+        Difficulty: "Intermediate",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-        title: "Node.js",
-        field: "Standard",
-        description: "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
-        sector: "Backend",
-        note: "Intermediate",
-        rating: 4.8
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        Name: "Node.js",
+        Badge: "Standard",
+        Description: "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+        Category: "Backend",
+        Difficulty: "Intermediate",
+        Rating: 4.8
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-        title: "PostgreSQL",
-        field: "Top SQL",
-        description: "A powerful, open-source object-relational database system with proven reliability.",
-        sector: "Database",
-        note: "Intermediate",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+        Name: "PostgreSQL",
+        Badge: "Top SQL",
+        Description: "A powerful, open-source object-relational database system with proven reliability.",
+        Category: "Database",
+        Difficulty: "Intermediate",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
-        title: "Redis",
-        field: "Cache",
-        description: "In-memory data structure store used as a high-speed database, cache, and message broker.",
-        sector: "Database",
-        note: "Intermediate",
-        rating: 4.8
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+        Name: "Redis",
+        Badge: "Cache",
+        Description: "In-memory data structure store used as a high-speed database, cache, and message broker.",
+        Category: "Database",
+        Difficulty: "Intermediate",
+        Rating: 4.8
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-        title: "JavaScript",
-        field: "Ubiquitous",
-        description: "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
-        sector: "Language",
-        note: "Beginner-Friendly",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        Name: "JavaScript",
+        Badge: "Ubiquitous",
+        Description: "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+        Category: "Language",
+        Difficulty: "Beginner-Friendly",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-        title: "TypeScript",
-        field: "Essential",
-        description: "A strongly typed programming language that builds on JavaScript for robust tooling.",
-        sector: "Language",
-        note: "Intermediate",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        Name: "TypeScript",
+        Badge: "Essential",
+        Description: "A strongly typed programming language that builds on JavaScript for robust tooling.",
+        Category: "Language",
+        Difficulty: "Intermediate",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-        title: "Java",
-        field: "Robust",
-        description: "A secure, object-oriented programming language designed for portability and scale.",
-        sector: "Language",
-        note: "Intermediate",
-        rating: 4.6
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        Name: "Java",
+        Badge: "Robust",
+        Description: "A secure, object-oriented programming language designed for portability and scale.",
+        Category: "Language",
+        Difficulty: "Intermediate",
+        Rating: 4.6
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-        title: "Tailwind CSS",
-        field: "Modern",
-        description: "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
-        sector: "Styling",
-        note: "Beginner-Friendly",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        Name: "Tailwind CSS",
+        Badge: "Modern",
+        Description: "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+        Category: "Styling",
+        Difficulty: "Beginner-Friendly",
+        Rating: 4.9
     },
     {
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
-        title: "Docker",
-        field: "Containers",
-        description: "A platform designed to build, share, and run containerized applications reliably.",
-        sector: "DevOps",
-        note: "Intermediate",
-        rating: 4.9
+        Icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        Name: "Docker",
+        Badge: "Containers",
+        Description: "A platform designed to build, share, and run containerized applications reliably.",
+        Category: "DevOps",
+        Difficulty: "Intermediate",
+        Rating: 4.9
     }
 ];
 
@@ -116,7 +116,7 @@ const AvailableProducts = () => {
     const [stack, setStack] = useState<CardType[]>([]);
 
     const handleAdd = (product: CardType) => {
-        if (!stack.find(p => p.title === product.title)) {
+        if (!stack.find(p => p.Name === product.Name)) {
             setStack([...stack, product]);
         }
     };
@@ -152,9 +152,9 @@ const AvailableProducts = () => {
                             {stack.map((item, idx) => (
                                 <div key={idx} className="flex items-center gap-4">
                                     <div className="w-10 h-10 rounded-xl bg-slate-50 flex items-center justify-center">
-                                        <img src={item.image} alt={item.title} className="w-6 h-6 object-contain" />
+                                        <img src={item.Icon} alt={item.Name} className="w-6 h-6 object-contain" />
                                     </div>
-                                    <span className="font-semibold text-gray-800 text-[15px]">{item.title}</span>
+                                    <span className="font-semibold text-gray-800 text-[15px]">{item.Name}</span>
                                 </div>
                             ))}
                         </div>

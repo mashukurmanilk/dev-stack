@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Nav() {
   return (
-    <div className="w-full h-20 border-b border-gray-200 px-4 md:px-8 sm:px-12 py-5">
+    <div className="w-full h-20 border-b border-gray-200 px-4 md:px-8 sm:px-12 py-5 sticky top-0 bg-white z-50">
         <nav className="max-w-7xl mx-auto flex items-center justify-between relative">
             
             {/*Hamburger menu (mobile) or Logo (desktop) */}

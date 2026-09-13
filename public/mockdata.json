@@ -1,0 +1,109 @@
+[
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "Name": "React",
+        "Badge": "Popular",
+        "Description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+        "Category": "Frontend",
+        "Difficulty": "Beginner-Friendly",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+        "Name": "Vue.js",
+        "Badge": "Versatile",
+        "Description": "An approachable, performant, and versatile framework for building web user interfaces.",
+        "Category": "Frontend",
+        "Difficulty": "Beginner-Friendly",
+        "Rating": 4.8
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg",
+        "Name": "Svelte",
+        "Badge": "Fast",
+        "Description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
+        "Category": "Frontend",
+        "Difficulty": "Intermediate",
+        "Rating": 4.8
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        "Name": "Next.js",
+        "Description": "The React framework for full-stack web applications with hybrid static & server rendering.",
+        "Category": "Frontend",
+        "Difficulty": "Intermediate",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        "Name": "Node.js",
+        "Badge": "Standard",
+        "Description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
+        "Category": "Backend",
+        "Difficulty": "Intermediate",
+        "Rating": 4.8
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+        "Name": "PostgreSQL",
+        "Badge": "Top SQL",
+        "Description": "A powerful, open-source object-relational database system with proven reliability.",
+        "Category": "Database",
+        "Difficulty": "Intermediate",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
+        "Name": "Redis",
+        "Badge": "Cache",
+        "Description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
+        "Category": "Database",
+        "Difficulty": "Intermediate",
+        "Rating": 4.8
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "Name": "JavaScript",
+        "Badge": "Ubiquitous",
+        "Description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
+        "Category": "Language",
+        "Difficulty": "Beginner-Friendly",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "Name": "TypeScript",
+        "Badge": "Essential",
+        "Description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
+        "Category": "Language",
+        "Difficulty": "Intermediate",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        "Name": "Java",
+        "Badge": "Robust",
+        "Description": "A secure, object-oriented programming language designed for portability and scale.",
+        "Category": "Language",
+        "Difficulty": "Intermediate",
+        "Rating": 4.6
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "Name": "Tailwind CSS",
+        "Badge": "Modern",
+        "Description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
+        "Category": "Styling",
+        "Difficulty": "Beginner-Friendly",
+        "Rating": 4.9
+    },
+    {
+        "Icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        "Name": "Docker",
+        "Badge": "Containers",
+        "Description": "A platform designed to build, share, and run containerized applications reliably.",
+        "Category": "DevOps",
+        "Difficulty": "Intermediate",
+        "Rating": 4.9
+    }
+]

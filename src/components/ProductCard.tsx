@@ -47,7 +47,7 @@ export default function ProductCard({product, onAdd}: ProductCardProps) {
             
             <button 
                 onClick={() => onAdd(product)}
-                className="w-full bg-[#0B1120] hover:bg-gray-800 text-white font-medium py-3 rounded-xl transition-colors text-[15px]">
+                className="w-full bg-black hover:opacity-90 text-white font-medium py-3 rounded-xl transition-colors text-[15px]">
                 Add to Stack
             </button>
         </div>

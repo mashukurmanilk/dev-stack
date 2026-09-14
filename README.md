@@ -8,7 +8,7 @@ A modern web application that allows developers to explore, compare, and constru
 - Tailwind CSS
 - React-Toastify
 - DaisyUI
-- ReactIcons
+- React Icons
 
 ### Key Features
 1. **Interactive Stack Building**: Users can dynamically add and remove technologies from their stack list in real-time.

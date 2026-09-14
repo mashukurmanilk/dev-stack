@@ -9,7 +9,7 @@ interface SelectedProductsProps {
 export default function SelectedProducts({ stack, onRemove, onReset }: SelectedProductsProps) {
 
 return (
-  <div className="lg:w-1/4 w-full max-h-full border border-gray-100 rounded-3xl p-6 shadow-sm bg-white sticky top-35">
+  <div className="lg:w-1/4 w-full max-h-full border border-gray-100 rounded-3xl p-6 shadow-sm bg-white">
     <div className="flex justify-between items-center mb-1">
       <h2 className="text-[20px] font-bold">Your Stack</h2>
     </div>

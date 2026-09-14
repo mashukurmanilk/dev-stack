@@ -6,7 +6,6 @@ export default function Nav() {
     <div className="w-full h-20 border-b border-gray-200 px-4 md:px-8 sm:px-12 py-5 sticky top-0 bg-white z-50">
         <nav className="max-w-7xl mx-auto flex items-center justify-between relative">
             
-            {/*Hamburger menu (mobile) or Logo (desktop) */}
             <div className="flex items-center">
                 <button className="md:hidden">
                     <RxHamburgerMenu
@@ -16,7 +15,7 @@ export default function Nav() {
                 <img className="hidden md:block md:translate-x-6 w-[98.4px] h-7 zoom-120" src={Logo} alt="logo"/>
             </div>
 
-            {/*Logo (mobile) or Links (desktop) */}
+            
             <div className="absolute max-w-full h-auto left-1/2 -translate-x-10/12 translate-y-1/12 md:static md:translate-x-0">
                 <img className="md:hidden w-[98.4px] h-7" src={Logo} alt="logo"/>
                 <ul className="hidden md:flex gap-6 items-center">
@@ -28,7 +27,7 @@ export default function Nav() {
                 </ul>
             </div>
 
-            {/*Buttons */}
+            
             <div className="flex items-center gap-1 sm:gap-3">
                 <button className="btn btn-ghost btn-sm px-5 md:btn-md rounded-full text-xs sm:text-sm">Sign In</button>
                 <button className="btn btn-secondary btn-sm px-5 md:btn-md rounded-full text-xs sm:text-sm">Sign Up</button>
